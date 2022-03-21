@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+    
+body{
+    background-image: url(dados_img/bg.jpg);
+    background-attachment: fixed;
+}    
+
+.nomeJogo{
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+.container_maior{
+    background-color: #a7bcfc;
+    width: 40em;
+    height: 42em;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border: solid 2px #000000;
+    border-radius: 20px;
+
+}
+
+.divisao_1{
+    width: 35em;
+    height: 10em;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #000000;
+}
+
+.divisao_2{
+    width: 35em;
+    height: 10em; 
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #000000;   
+}
+.tela{
+    background-color: #ffffff;
+    width: 35em;
+    height: 1.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #000000;   
+    border-radius: 10px;
+}
+
+#sortear{
+    cursor: pointer;
+    border: solid 2px #000000;
+    width: 8em;
+    height: 1.5em;
+    box-shadow: 5px 5px 5px #000000;
+    border-radius: 10px;
+    background-color: #e0f763;
+    font-weight: bold;
+
+    
+}
+
+#sortear:hover {background-color: #fffb00}
+
+#sortear:active {
+  background-color: #9b9801;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.imagens{
+    display: flex;
+    width: 25%;
+    height: auto;
+    display: inline-flex;
+    margin: auto;
+    justify-content: space-between;
+   
+}
+
+.button_jogador{
+    cursor: pointer;
+    border: solid 2px #000000;
+    width: 8em;
+    height: 1.5em;
+    box-shadow: 5px 5px 5px #000000;
+    border-radius: 10px;
+    background-color: #76b4fa;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.button_jogador:hover {background-color: #0082fc}
+
+.button_jogador:active {
+  background-color: #002f86;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#escolhido1{
+    width: 3.5em
+}
+
+#escolhido2{
+    width: 3.5em
+}
+
+#escolhido3{
+    width: 3.5em
+}
+
+#vencedor{
+    cursor: pointer;
+    border: solid 2px #000000;
+    width: 8em;
+    height: 1.5em;
+    box-shadow: 5px 5px 5px #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
+
+#vencedor:hover {background-color: #ccc8c8}
+
+#vencedor:active {
+  background-color: #a8a8a8;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

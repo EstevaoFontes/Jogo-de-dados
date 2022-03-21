@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta chrset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo de dados</title>
+</head>
+
+<body>
+    <h1 class="nomeJogo">Jogo de dados</h1><br>
+    <div class="container_maior" id="container">
+        <h2>Jogador:</h2>
+        <h3>Digite três número de 1 à 6:</h3>
+        <p id="erro"></p>
+        <input id="escolhido1" type="number" min="1" max="6">
+        <input id="escolhido2" type="number">
+        <input id="escolhido3" type="number"> <br><br>
+        <button class="button_jogador" id="adicionar_numeros">Adicionar</button><br><br>
+        <div class="divisao_2">
+            <img class="imagens" id="jogador1">
+            <img class="imagens" id="jogador2">
+            <img class="imagens" id="jogador3">
+        </div><br>
+        Clique aqui para sortear os dados: <br><button id="sortear">Sortear</button>
+        <h2>Computador:</h2><br>
+        <div class="divisao_1">
+            <img class="imagens" id="1">
+            <img class="imagens" id="2">
+            <img class="imagens" id="3">
+        </div><br><br>
+       <button class="vencedor" id="vencedor">Vencedor</button> <br><br>
+        <div class="tela">
+            <p id="tela"></p>
+        </div>
+
+    </div>
+
+<script src="code.js"></script>
+</body>
+
+</html>
